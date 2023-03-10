@@ -1,0 +1,245 @@
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter-Regular.ttf) format('truetype');
+}
+
+/* Default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* main nav startv here  */
+nav {
+    width: 100%;
+    max-width: 1118px;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    float: right;
+    height: 78px;
+
+    background-color: #0F141F;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: initial;
+}
+
+nav li {
+    padding-right: 25px;
+}
+
+nav li:last-child {
+    padding-right: 0px;
+}
+
+nav li a {
+    /* Paragraph/Body 4 */
+    text-decoration: none;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #97A4C1;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+nav li a:hover {
+    padding: 12px;
+    background: #2E3A54;
+    border-radius: 12px;
+    color: #ddd;
+}
+
+/* Aside sidebar menu start  */
+.sidebar {
+    background-color: #0F141F;
+    width: 248px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.main-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuTop span {
+    max-width: 70%;
+    gap: 12px;
+    padding: 10px;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(75.47% 75.47% at 50% 0%, #598BFC 0%, #1A55DB 100%);
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+.menuTop h4 {
+    text-align: start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(192, 209, 252, 0.66);
+    padding: 0px 19px;
+}
+
+.menuTop span img {
+    width: 30px;
+}
+
+.menuTop span li {
+    list-style-type: none;
+}
+
+.menuTop span li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menuTop h1 {
+    padding: 0px 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+.main-menu li {
+    padding: 12px 8px;
+}
+
+.main-menu li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #F0F2F7;
+}
+
+.sub-menu {
+    display: none;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 200px; */
+    /* width: 200px; */
+    /* background-color: red; */
+}
+
+.main-menu li:hover .sub-menu {
+    display: inline;
+    position: absolute;
+    /* top: 0; */
+    /* left: 200px; */
+    padding-bottom: 100px;
+    height: auto;
+    width: 248px;
+    background-color: #ddd;
+}
+
+.sub-menu li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.sub-menu li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sub-menu li:hover {
+    background-color: #ccc;
+}
+
+/* first section style start here  */
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    background-color: #F4F8FF;
+    width: 100%;
+    max-width: 1118px;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    float: right;
+
+}
+
+.firstSection img {
+    margin-right: 32px;
+    width: 20px;
+
+}
+
+.firstSection h2 {
+    margin-left: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0F141F;
+}
+
+.btnStyle {
+    height: 56px;
+    max-width: 216px;
+    gap: 12px;
+    padding: 10px;
+    background: radial-gradient(75.47% 75.47% at 50% 0%, #2E3A54 0%, #2E3A54 100%);
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnStyle li a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #F0F2F7;
+}
+
+.btnStyle img {
+    width: 26px;
+}
+
+.btnStyle span img {
+    width: 10px;
+}
