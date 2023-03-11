@@ -15,7 +15,7 @@ body {
 /* main nav startv here  */
 nav {
     width: 100%;
-    max-width: 1118px;
+    max-width: 1102px;
     margin: 0 auto;
     padding: 5px;
     box-sizing: border-box;
@@ -33,7 +33,7 @@ nav ul {
 }
 
 nav li {
-    padding-right: 25px;
+    padding-right: 23px;
 }
 
 nav li:last-child {
@@ -173,18 +173,20 @@ nav li a:hover {
     pointer-events: none;
 }
 
-.sidebar .nav-links li .sub-menu .subMenuWrap .subMenuImg{
+.sidebar .nav-links li .sub-menu .subMenuWrap .subMenuImg {
     position: absolute;
 }
-.sidebar .nav-links li .sub-menu .subMenuWrap .subMenuImg img{
+
+.sidebar .nav-links li .sub-menu .subMenuWrap .subMenuImg img {
     width: 3px;
     margin-right: 163px;
     height: 298px;
     position: relative;
     margin-top: -117px;
 }
-.sidebar .nav-links li .sub-menu .subMenuWrap{
-   
+
+.sidebar .nav-links li .sub-menu .subMenuWrap {
+
     margin-top: 22px;
     display: flex;
     justify-content: right;
@@ -192,16 +194,19 @@ nav li a:hover {
     margin-right: 25px;
 
 }
-.sidebar .nav-links li .sub-menu .imgLi img{
+
+.sidebar .nav-links li .sub-menu .imgLi img {
     padding: 7px;
 }
-.sidebar .nav-links li .sub-menu .imgLi{
+
+.sidebar .nav-links li .sub-menu .imgLi {
     display: flex;
     /* margin-top: -6px; */
     justify-content: center;
     align-items: baseline;
 }
-.sidebar .nav-links li .sub-menu p{
+
+.sidebar .nav-links li .sub-menu p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -211,6 +216,7 @@ nav li a:hover {
     margin-top: 0px;
     padding: 0px 10px;
 }
+
 .sidebar .nav-links li .sub-menu {
     padding: 6px 6px 14px 80px;
     margin-top: -10px;
@@ -377,7 +383,7 @@ nav li a:hover {
 .container {
     background-color: #F4F8FF;
     width: 100%;
-    max-width: 1118px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 5px;
     box-sizing: border-box;
@@ -400,31 +406,163 @@ nav li a:hover {
     line-height: 29px;
     color: #0F141F;
 }
+
+.product {    
+    grid-gap: 19px  0px;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+
+    /* grid-gap: 5px; */
+}
+
+.product .col {
+    height: 145px;
+    width: 267px;
+    text-align: center;
+}
+
+.col1 {
+    background: #FFFFFF;
+    border: 1px solid #D8E2FA;
+    border-radius: 12px;
+    background-image: url("image/Group.png");
+    background-size: cover;
+}
+
+.product .col .productTop {
+    padding: 8px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product .col .productTop img {
+    width: 47px;
+    border-radius: 100%;
+    background: #2C64E4;
+}
+
+.product .col .productTop p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 138.02%;
+    color: #393939;
+}
+
+.product .col .productBottom {
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product .col .productBottom h3{
+    text-align: left;
+    width: 167px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373B45;
+}
+.product .col .productBottom p{
+    width: 87px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 16px;
+text-align: right;
+color: #393939;
+}
+.secondContainer{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #596B8D;
+}
+#container { 
+    width: 100%; height: 100%; margin: 0; padding: 0; 
+  } 
+  
+.lastContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.chartRight{
+    width: 743px;
+}
+.history{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.history span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.history h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0F141F;
+    width: 168px;
+}
+.history p{
+    padding-right: 5px;
+    width: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #393939;
+}
+.history img{
+border-radius: 3px;
+}
+/*=============================== Media query start here for  Responsive Template ================================================= */
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    /* code write  */
+
 }
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    /* code write  */
-
+ 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    /* code write  */
+ 
+
+   
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    /* code write  */
-
+    /* .container {
+        max-width: 749px;
+    } */
+ 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    /* code write  */
-
+ 
+   
 }
